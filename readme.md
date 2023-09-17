@@ -8,6 +8,8 @@ To add this library to your repository use the command `git submodule add git@gi
 
 Once in your KiCAD project, go to the schematic editor, `Preferences` -> `Manage Symbol Libraries` -> `Project Specific Libraries` then add each symbol file into the table.
 
+You should have `BoardName-backups/*` directory in your `.gitignore` file to ignore all backup zip files generated.
+
 # Adding to this repository
 Since this library will be stored as a submodule in your library, it acts as any github repository. During the development of your board if you find any symbols or footprints then add them to this library so others can also use them.  
 First create a branch in this library for your repository, push any changes as you make them, and once your board is done make a Pull Request to merge your changes to main
