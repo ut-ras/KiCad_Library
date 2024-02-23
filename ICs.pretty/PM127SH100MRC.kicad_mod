@@ -45,7 +45,7 @@
     (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp a1b2c2e6-2dab-47c2-87c0-131b6e480f87))
   (pad "1" smd rect (at -4.85 0) (size 2.9 5.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 217da7a2-6289-47e2-8a83-7ce962ccd713))
   (pad "2" smd rect (at 4.85 0) (size 2.9 5.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ef8d256a-9d73-4166-8046-14af703f8a31))
-  (model "C:/Users/Tachi/Documents/robomaster_hardware/KiCad_Library/ICs.3dmodels/PM127SH-100M-RC.stp"
+  (model "${KICAD_ROBOMASTERS_3DMODEL_DIR}/PM127SH-100M-RC.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

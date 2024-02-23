@@ -49,7 +49,7 @@
   (pad "4" smd rect (at 1.25 0.95 90) (size 0.6 1.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 400f1d70-d78a-43ea-8b35-e2c66fd9a5ad))
   (pad "5" smd rect (at 1.25 0 90) (size 0.6 1.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 19518a84-c98a-4e82-8680-79ab53d7636b))
   (pad "6" smd rect (at 1.25 -0.95 90) (size 0.6 1.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 48753a6f-9105-4a8d-892d-dcfc233d37d8))
-  (model ":KICAD_LHR_3DMODEL_DIR:_LHRE_ICs.3dshapes/LV2862YDDCR.stp"
+  (model "${KICAD_ROBOMASTERS_3DMODEL_DIR}/LV2862YDDCR.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
