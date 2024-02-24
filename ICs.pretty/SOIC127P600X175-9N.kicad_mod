@@ -44,7 +44,7 @@
   (pad "7" smd rect (at 2.714 -0.635 90) (size 0.7 1.522) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f2952699-cfea-428b-ade2-e4421cdc7380))
   (pad "8" smd rect (at 2.714 -1.905 90) (size 0.7 1.522) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2e8e6f2b-7310-480b-b14e-8a1b2ee5712f))
   (pad "9" smd rect (at 0 0) (size 2.3 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 11ca3a86-f5eb-40dc-816d-807782cee0cc))
-  (model "C:/Users/Tachi/Documents/robomaster_hardware/KiCad_Library/ICs.3dmodels/RT6285GSP.stp"
+  (model "${KICAD_ROBOMASTERS_3DMODEL_DIR}/RT6285GSP.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
