@@ -39,7 +39,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 73736184-1a47-4bb5-9e51-3d67e16fdf50))
   (pad "1" smd rect (at -2.225 0) (size 1.49 2.14) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7997e16e-ac7a-4630-9c94-4b5632d04da1))
   (pad "2" smd rect (at 2.225 0) (size 1.49 2.14) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4f8af877-0211-4671-8456-a0a43a17e384))
-  (model "${KICAD_ROBOMASTERS_3DMODEL_DIR}/SR54F-AU_R2_000A1.stp"
+  (model "${KICAD_ROBOMASTERS_3DMODEL_DIR}/ICs.3dmodels/SR54F-AU_R2_000A1.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

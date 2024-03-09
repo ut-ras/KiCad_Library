@@ -100,7 +100,7 @@
   (pad "F2" thru_hole circle (at 37.465 3.180001) (size 2.28 2.28) (drill 1.78) (layers "*.Cu" "*.Mask") (tstamp 1c6593c7-f517-46da-89b6-af9c73e6b5d8))
   (pad "M1" thru_hole circle (at -4.750003 -0.250012) (size 3.500001 3.500001) (drill 2.999999) (layers "*.Cu" "*.Mask") (tstamp abea776b-e108-4283-b651-b8a8b2759a93))
   (pad "M2" thru_hole circle (at 42.215003 -0.250012) (size 3.500001 3.500001) (drill 2.999999) (layers "*.Cu" "*.Mask") (tstamp 5f52fa95-dcac-483c-9cbb-4e237dd6296e))
-  (model "${KICAD_ROBOMASTERS_3DMODEL_DIR}/431602106.stp"
+  (model "${KICAD_ROBOMASTERS_3DMODEL_DIR}/Connectors.3dmodels/431602106.stp"
     (offset (xyz 18.7 -1.1 7.45))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

@@ -113,7 +113,7 @@
   (pad "6" thru_hole circle (at 3.500001 4.600001) (size 1.52 1.52) (drill 1.016) (layers "*.Cu" "*.Mask") (tstamp ed109e2b-fa59-4186-be75-916fdd6f136b))
   (pad "7" thru_hole circle (at 7.000001 4.600001) (size 1.52 1.52) (drill 1.016) (layers "*.Cu" "*.Mask") (tstamp c1110113-9b97-4212-9806-37eadf41291e))
   (pad "8" thru_hole circle (at 10.500002 4.600001) (size 1.52 1.52) (drill 1.016) (layers "*.Cu" "*.Mask") (tstamp dd85f207-fae4-4c3e-999b-6f319dcef165))
-  (model ":KICAD_ROBOMASTERS_3DMODEL_DIR:1722981108.stp"
+  (model ":KICAD_ROBOMASTERS_3DMODEL_DIR:Connectors.3dmodels/1722981108.stp"
     (offset (xyz 5.25 -2.55 5.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
