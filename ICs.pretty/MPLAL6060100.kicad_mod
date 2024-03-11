@@ -49,7 +49,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp aaf1fc0a-12ca-4b3e-a986-b4cce440d45a))
   (pad "1" smd rect (at -2.025 0) (size 1.55 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4d487f2b-9cbe-459c-a9c4-48161134bb2e))
   (pad "2" smd rect (at 2.025 0) (size 1.55 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4bc2a7d9-94ae-45d8-9cc6-705d545c645f))
-  (model "${KICAD_ROBOMASTERS_3DMODEL_DIR}/MPL-AL6060-100.stp"
+  (model "${KICAD_ROBOMASTERS_3DMODEL_DIR}/ICs.3dmodels/MPL-AL6060-100.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
