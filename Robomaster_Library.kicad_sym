@@ -733,7 +733,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DACx3401_0_1"
+		(symbol "DACx3401_1_1"
 			(rectangle
 				(start -6.35 0)
 				(end 6.35 -12.7)
@@ -742,11 +742,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "DACx3401_1_1"
 			(pin input line
 				(at -8.89 -2.54 0)
 				(length 2.54)
@@ -2113,7 +2111,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ISO164xB_0_1"
+		(symbol "ISO164xB_1_1"
 			(rectangle
 				(start -6.35 2.54)
 				(end 6.35 -12.7)
@@ -2122,11 +2120,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "ISO164xB_1_1"
 			(pin power_in line
 				(at -8.89 0 0)
 				(length 2.54)
