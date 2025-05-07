@@ -2482,7 +2482,7 @@
 		(symbol "TPS43061_1_1"
 			(rectangle
 				(start -8.89 0)
-				(end 8.89 -40.64)
+				(end 8.89 -41.91)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2636,7 +2636,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 -43.18 90)
+				(at -1.27 -44.45 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -2654,7 +2654,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -43.18 90)
+				(at 1.27 -44.45 90)
 				(length 2.54)
 				(name "PAD"
 					(effects
@@ -2726,7 +2726,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -27.94 180)
+				(at 11.43 -29.21 180)
 				(length 2.54)
 				(name "LDRV"
 					(effects
@@ -2744,7 +2744,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -30.48 180)
+				(at 11.43 -31.75 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -2762,7 +2762,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -33.02 180)
+				(at 11.43 -34.29 180)
 				(length 2.54)
 				(name "HDRV"
 					(effects
@@ -2780,7 +2780,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -38.1 180)
+				(at 11.43 -39.37 180)
 				(length 2.54)
 				(name "FB"
 					(effects
