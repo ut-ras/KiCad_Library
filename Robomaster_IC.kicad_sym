@@ -1042,6 +1042,93 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "IQDH35N03LM5CGSCATMA1"
+		(in_bom yes) (on_board yes)
+		(property "Reference" "Q" (at 21.59 7.62 0)
+		(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Value" "IQDH35N03LM5CGSCATMA1" (at 21.59 5.08 0)
+		(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "IQDH45N04LM6CGSCATMA1" (at 21.59 -94.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IQDH45N04LM6CGSC-DataSheet-v02_02-EN.pdf?fileId=8ac78c8c9197e8e70191982493b104c7" (at 21.59 -194.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "ki_description" "MOSFETs TRENCH <= 40V" (at 21.59 -294.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Height" "0.75" (at 21.59 -394.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Mouser Part Number" "" (at 21.59 -494.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Mouser Price/Stock" "" (at 21.59 -594.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Manufacturer_Name" "Infineon" (at 21.59 -694.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Manufacturer_Part_Number" "IQDH35N03LM5CGSCATMA1" (at 21.59 -794.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(rectangle
+		(start 5.08 2.54)
+		(end 20.32 -15.24)
+		(stroke (width 0.254) (type default))
+		(fill (type background))
+		)
+		(pin passive line (at 0 0 0) (length 5.08)
+		(name "S_1" (effects (font (size 1.27 1.27))))
+		(number "1" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -2.54 0) (length 5.08)
+		(name "S_2" (effects (font (size 1.27 1.27))))
+		(number "2" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -5.08 0) (length 5.08)
+		(name "S_3" (effects (font (size 1.27 1.27))))
+		(number "3" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -7.62 0) (length 5.08)
+		(name "S_4" (effects (font (size 1.27 1.27))))
+		(number "4" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -10.16 0) (length 5.08)
+		(name "D_1" (effects (font (size 1.27 1.27))))
+		(number "5" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -12.7 0) (length 5.08)
+		(name "D_2" (effects (font (size 1.27 1.27))))
+		(number "6" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 0 180) (length 5.08)
+		(name "D_3" (effects (font (size 1.27 1.27))))
+		(number "7" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 -2.54 180) (length 5.08)
+		(name "D_4" (effects (font (size 1.27 1.27))))
+		(number "8" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 -5.08 180) (length 5.08)
+		(name "G" (effects (font (size 1.27 1.27))))
+		(number "9" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 -7.62 180) (length 5.08)
+		(name "S_5" (effects (font (size 1.27 1.27))))
+		(number "10" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 -10.16 180) (length 5.08)
+		(name "S_6" (effects (font (size 1.27 1.27))))
+		(number "11" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 -12.7 180) (length 5.08)
+		(name "D_5" (effects (font (size 1.27 1.27))))
+		(number "12" (effects (font (size 1.27 1.27))))
+		)
+    )
 	(symbol "LM393LV"
 		(pin_names
 			(offset 0.127)
@@ -2325,6 +2412,325 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MC33063A"
+		(extends "AZ34063U")
+		(property "Reference" "U"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC33063A"
+			(at 0 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/mc33063a.pdf?ts=1740126917522"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switching voltage regulators step up down inverting"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MC34063A"
+		(extends "AZ34063U")
+		(property "Reference" "U"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC34063A"
+			(at 0 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/mc34063a"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5-A boost, buck, inverting switching regulator, operation from 0°C to 70°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-MC34063ADR"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switching voltage regulators step up down inverting"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "NVMTS0D4N04CLTXG" 
+		(in_bom yes) (on_board yes)
+		(property "Reference" "Q" (at 21.59 7.62 0)
+		(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Value" "NVMTS0D4N04CLTXG" (at 21.59 5.08 0)
+		(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "NVMTS0D4N04CLTXG" (at 21.59 -94.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NVMTS0D4N04CL-D.PDF" (at 21.59 -194.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "ki_description" "Small Footprint (8x8 mm); Low RDS(on); Wettable Flank Option; Low QG and Capacitance; AECQ101 Qualified and PPAP Capable; RoHS Compliant" (at 21.59 -294.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Height" "1.2" (at 21.59 -394.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Mouser Part Number" "863-NVMTS0D4N04CLTXG" (at 21.59 -494.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NVMTS0D4N04CLTXG?qs=%252BEew9%252B0nqrA0ukGBkwN5HA%3D%3D" (at 21.59 -594.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Manufacturer_Name" "onsemi" (at 21.59 -694.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(property "Manufacturer_Part_Number" "NVMTS0D4N04CLTXG" (at 21.59 -794.92 0)
+		(effects (font (size 1.27 1.27)) (justify left top) hide)
+		)
+		(rectangle
+		(start 5.08 2.54)
+		(end 20.32 -15.24)
+		(stroke (width 0.254) (type default))
+		(fill (type background))
+		)
+		(pin passive line (at 0 0 0) (length 5.08)
+		(name "G" (effects (font (size 1.27 1.27))))
+		(number "1" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -2.54 0) (length 5.08)
+		(name "S_1" (effects (font (size 1.27 1.27))))
+		(number "2" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -5.08 0) (length 5.08)
+		(name "S_2" (effects (font (size 1.27 1.27))))
+		(number "3" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -7.62 0) (length 5.08)
+		(name "S_3" (effects (font (size 1.27 1.27))))
+		(number "4" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -10.16 0) (length 5.08)
+		(name "D_1" (effects (font (size 1.27 1.27))))
+		(number "5" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 0 -12.7 0) (length 5.08)
+		(name "D_2" (effects (font (size 1.27 1.27))))
+		(number "6" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 0 180) (length 5.08)
+		(name "D_3" (effects (font (size 1.27 1.27))))
+		(number "7" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 -2.54 180) (length 5.08)
+		(name "D_4" (effects (font (size 1.27 1.27))))
+		(number "8" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 -5.08 180) (length 5.08)
+		(name "D_5" (effects (font (size 1.27 1.27))))
+		(number "9" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 -7.62 180) (length 5.08)
+		(name "D_6" (effects (font (size 1.27 1.27))))
+		(number "10" (effects (font (size 1.27 1.27))))
+		)
+		(pin passive line (at 25.4 -10.16 180) (length 5.08)
+		(name "D_7" (effects (font (size 1.27 1.27))))
+		(number "11" (effects (font (size 1.27 1.27))))
+		)
+    )
+	(symbol "P78B-1000R"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P78B-1000R"
+			(at -2.54 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "P78B-1000R series:P78B-1000R"
+			(at -0.254 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "P78B-1000R_1_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 3.81 0)
+				(length 2.54)
+				(name "+Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 1.27 0)
+				(length 2.54)
+				(name "+Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3743,126 +4149,6 @@
 			)
 		)
 		(embedded_fonts no)
-	)
-	(symbol "MC33063A"
-		(extends "AZ34063U")
-		(property "Reference" "U"
-			(at 0 3.556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC33063A"
-			(at 0 1.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/mc33063a.pdf?ts=1740126917522"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "switching voltage regulators step up down inverting"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol "MC34063A"
-		(extends "AZ34063U")
-		(property "Reference" "U"
-			(at 0 3.556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC34063A"
-			(at 0 1.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/mc34063a"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5-A boost, buck, inverting switching regulator, operation from 0°C to 70°C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-MC34063ADR"
-			(at 0 0 0)
-			(do_not_autoplace)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "switching voltage regulators step up down inverting"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(symbol "TS3902"
 		(extends "LM393LV")
