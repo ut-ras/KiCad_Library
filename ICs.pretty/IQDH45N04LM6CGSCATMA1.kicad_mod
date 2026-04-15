@@ -259,15 +259,15 @@
 		(uuid "abdbd42f-63ae-4d9a-8d31-a8db31c80b82")
 	)
 	(embedded_fonts no)
-	(model "IQDH35N03LM5CGSCATMA1.stp"
+	(model "${KIPRJMOD}/KiCad_Library/ICs.3dmodels/PG-WHTFN-9-2_Z8B00242869_V01_3D.stp"
 		(offset
-			(xyz 0.1199999955 -0.1399999985 0.03999999851)
+			(xyz 0.15 -0.1 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -180 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )
