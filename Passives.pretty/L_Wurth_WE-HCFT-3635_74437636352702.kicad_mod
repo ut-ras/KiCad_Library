@@ -1,0 +1,160 @@
+(footprint "L_Wurth_WE-HCFT-3635_74437636352702"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Shielded High Current Inductor, body 36.5x35.7x34.2mm, https://www.we-online.com/en/components/products/WE-HCFT#/articles/WE-HCFT-3635")
+	(tags "THT")
+	(property "Reference" "REF**"
+		(at 5.75 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f1247d58-2e92-45a0-b122-314e812ffa83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-HCFT-3635_74437636352702"
+		(at 5.75 31.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7b3ee3f-5dc9-4f57-b619-d7d7743c4781")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55a346ea-2cc3-42cd-8962-c13c91a8cab5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c630107-1fb7-46f3-8ff7-10d8af49f632")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -12.835 -0.5625)
+		(end -12.835 0.5625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c02b8312-9d72-466f-b4f6-2a02b32c91e9")
+	)
+	(fp_rect
+		(start -12.61 -5.86)
+		(end 24.11 30.06)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb3c968d-4a7b-466d-87e5-8154920f2a5a")
+	)
+	(fp_rect
+		(start -12.75 -6)
+		(end 24.25 30.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "af38ef32-5e67-4a0d-94eb-7c3a84dc3071")
+	)
+	(fp_line
+		(start -12.5 -0.5625)
+		(end -11.65625 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bcf33621-2e7c-4b06-85e7-0aa82f98aedc")
+	)
+	(fp_line
+		(start -12.5 0.5625)
+		(end -11.65625 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b442c310-8304-4b8a-90a2-0893070b33cd")
+	)
+	(fp_rect
+		(start -12.5 -5.75)
+		(end 24 29.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "46ba7bb1-1325-44c3-b6e1-4d9d82f512f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.75 12.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1467a60c-026e-4a09-8885-b0a8ea6e91aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 12.7 4.5)
+		(drill oval 10.7 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34c802ce-baa2-4a5b-ad1b-f464de4b3e14")
+	)
+	(pad "2" thru_hole oval
+		(at 11.5 24.2)
+		(size 12.7 4.5)
+		(drill oval 10.7 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4483cc03-5edc-48f2-9564-7a7a32b8d7b1")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad_Library/Passives.3dmodels/74437636352702.stp"
+		(offset
+			(xyz 6 -12 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
