@@ -1329,7 +1329,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC3"
-			(at 0 1.016 0)
+			(at 9.652 7.112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1339,7 +1339,7 @@
 			)
 		)
 		(property "Value" "INA823DT"
-			(at 0 -1.524 0)
+			(at 9.652 4.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1349,7 +1349,7 @@
 			)
 		)
 		(property "Footprint" "Robomaster_Passives:SOIC127P600X175-8N"
-			(at 11.43 -90.475 0)
+			(at 26.67 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1361,7 +1361,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina823.pdf?ts=1639455244308&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA823%253FkeyMatch%253DINA823DGKR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
-			(at 11.43 -190.475 0)
+			(at 26.67 -194.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1373,7 +1373,7 @@
 			)
 		)
 		(property "Description" "Instrumentation Amplifiers Precision (100 uV), low-power (250 uA), wide-supply (2.7 V to 36 V), instrumentation amplifier"
-			(at -15.24 4.445 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1384,7 +1384,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 11.43 -390.475 0)
+			(at 26.67 -394.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1396,7 +1396,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA823DT"
-			(at 11.43 -490.475 0)
+			(at 26.67 -494.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1408,7 +1408,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA823DT?qs=Rp5uXu7WBW%2FgFO7j5lg4sQ%3D%3D"
-			(at 11.43 -590.475 0)
+			(at 26.67 -594.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1420,7 +1420,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 11.43 -690.475 0)
+			(at 26.67 -694.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1432,7 +1432,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA823DT"
-			(at 11.43 -790.475 0)
+			(at 26.67 -794.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1445,8 +1445,8 @@
 		)
 		(symbol "INA823DT_1_1"
 			(rectangle
-				(start -10.16 6.985)
-				(end 10.16 -8.255)
+				(start 5.08 2.54)
+				(end 25.4 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1456,7 +1456,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 3.175 0)
+				(at 0 -1.27 0)
 				(length 5.08)
 				(name "RG_1"
 					(effects
@@ -1474,7 +1474,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 5.715 0)
+				(at 0 1.27 0)
 				(length 5.08)
 				(name "-IN"
 					(effects
@@ -1492,7 +1492,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -6.35 0)
+				(at 0 -8.89 0)
 				(length 5.08)
 				(name "+IN"
 					(effects
@@ -1510,7 +1510,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -13.335 90)
+				(at 17.78 -15.24 90)
 				(length 5.08)
 				(name "-VS"
 					(effects
@@ -1528,7 +1528,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -3.175 180)
+				(at 30.48 -7.62 180)
 				(length 5.08)
 				(name "REF"
 					(effects
@@ -1546,7 +1546,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 1.905 180)
+				(at 30.48 -2.54 180)
 				(length 5.08)
 				(name "OUT"
 					(effects
@@ -1564,7 +1564,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 12.065 270)
+				(at 17.78 7.62 270)
 				(length 5.08)
 				(name "+VS"
 					(effects
@@ -1582,7 +1582,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -3.81 0)
+				(at 0 -6.35 0)
 				(length 5.08)
 				(name "RG_2"
 					(effects
