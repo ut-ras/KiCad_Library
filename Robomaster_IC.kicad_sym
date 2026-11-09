@@ -2,6 +2,482 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
+	(symbol "ACS711xEXLT-15AB"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U3"
+			(at -1.524 13.208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ACS71240KEXBLT-010B3"
+			(at -11.938 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sensor_Current:Allegro_QFN-12-10-1EP_3x3mm_P0.5mm"
+			(at 8.89 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/acs71240-datasheet.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Board Mount Current Sensors CURRENT SENSOR IC WITH COMMON MODE REJECTION"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ACS71240KEXBLT-010B3 "
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "250-71240KEXBLT010B3"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "hall effect current monitor sensor isolated"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Allegro*QFN*EP*3x3mm*P0.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ACS711xEXLT-15AB_0_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ACS711xEXLT-15AB_1_1"
+			(polyline
+				(pts
+					(xy -6.35 5.08) (xy 6.35 5.08)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "IP+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "IP-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "~{FAULT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "VIOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ACS711xEXLT-31AB"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U_{iL}1"
+			(at -1.905 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ACS711xEXLT-31AB"
+			(at 0 12.065 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sensor_Current:Allegro_QFN-12-10-1EP_3x3mm_P0.5mm"
+			(at 8.89 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "±31A Bidirectional, Hall-Effect Current Sensor, +3.3V supply, 45mV/A, QFN-12"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "hall effect current monitor sensor isolated"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Allegro*QFN*EP*3x3mm*P0.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ACS711xEXLT-31AB_0_1"
+			(rectangle
+				(start -7.62 10.795)
+				(end 7.62 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ACS711xEXLT-31AB_1_1"
+			(polyline
+				(pts
+					(xy -6.985 6.985) (xy 6.985 6.985)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at -10.16 8.255 0)
+				(length 2.54)
+				(name "IP+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 8.255 180)
+				(length 2.54)
+				(name "IP-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 10.16 1.905 180)
+				(length 2.54)
+				(name "~{FAULT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 4.445 180)
+				(length 2.54)
+				(name "VIOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 1.905 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "AZ34063U"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -859,6 +1335,288 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INA823DT"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC3"
+			(at 19.9233 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA823DT"
+			(at 19.9233 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Robomaster_Passives:SOIC127P600X175-8N"
+			(at 26.67 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina823.pdf?ts=1639455244308&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA823%253FkeyMatch%253DINA823DGKR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
+			(at 26.67 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Instrumentation Amplifiers Precision (100 uV), low-power (250 uA), wide-supply (2.7 V to 36 V), instrumentation amplifier"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.75"
+			(at 26.67 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-INA823DT"
+			(at 26.67 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA823DT?qs=Rp5uXu7WBW%2FgFO7j5lg4sQ%3D%3D"
+			(at 26.67 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 26.67 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA823DT"
+			(at 26.67 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "INA823DT_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 25.4 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -1.27 0)
+				(length 5.08)
+				(name "RG_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -8.89 0)
+				(length 5.08)
+				(name "-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 1.27 0)
+				(length 5.08)
+				(name "+IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -15.24 90)
+				(length 5.08)
+				(name "-VS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 30.48 -7.62 180)
+				(length 5.08)
+				(name "REF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 7.62 270)
+				(length 5.08)
+				(name "+VS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6.35 0)
+				(length 5.08)
+				(name "RG_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2805,6 +3563,286 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "MAX15019AASA+"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC5"
+			(at 0 9.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX15019AASA+"
+			(at 0 6.985 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robomaster_Passives:SOIC127P600X168-9N"
+			(at 11.43 -91.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/256/MAX15018-MAX15019-1515114.pdf"
+			(at 11.43 -191.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX15019AASA+ - MOSFET Driver, 8V-12.6V supply, 3A output, NSOIC-8"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.68"
+			(at 11.43 -391.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "700-MAX15019AASA"
+			(at 11.43 -491.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX15019AASA%2b?qs=Jw2w9zrI6w%252BrmPJ1VTN6zA%3D%3D"
+			(at 11.43 -591.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 11.43 -691.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX15019AASA+"
+			(at 11.43 -791.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "MAX15019AASA+_1_1"
+			(rectangle
+				(start -10.16 5.715)
+				(end 10.16 -6.985)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -15.24 3.175 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 3.175 180)
+				(length 5.08)
+				(name "BST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 0.635 180)
+				(length 5.08)
+				(name "OUT_H"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -1.905 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 0.635 0)
+				(length 5.08)
+				(name "IN_H"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -1.905 0)
+				(length 5.08)
+				(name "IN_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -4.445 180)
+				(length 5.08)
+				(name "OUT_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 -4.445 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[7,9]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "NVMTS0D4N04CLTXG"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3276,29 +4314,27 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC4"
-			(at 8.0711 13.589 0)
+			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "PGA849RGTR"
-			(at 8.0711 11.049 0)
+			(at 0 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Robomaster_ICs:QFN50P300X300X100-17N-D"
-			(at -37.465 -94.285 0)
+			(at 36.83 -79.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3310,7 +4346,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pga849.pdf?ts=1793571462635&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
-			(at -37.465 -194.285 0)
+			(at 36.83 -179.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3322,7 +4358,7 @@
 			)
 		)
 		(property "Description" "Instrumentation Amplifiers Low-noise wide-bandw idth precision prog"
-			(at -0.127 0.381 0)
+			(at 5.08 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3333,7 +4369,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at -37.465 -394.285 0)
+			(at 36.83 -379.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3345,7 +4381,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -37.465 -494.285 0)
+			(at 36.83 -479.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3357,7 +4393,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -37.465 -594.285 0)
+			(at 36.83 -579.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3369,7 +4405,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at -37.465 -694.285 0)
+			(at 36.83 -679.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3381,7 +4417,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PGA849RGTR"
-			(at -37.465 -794.285 0)
+			(at 36.83 -779.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3394,8 +4430,8 @@
 		)
 		(symbol "PGA849RGTR_1_1"
 			(rectangle
-				(start -15.875 9.525)
-				(end 15.24 -9.525)
+				(start -13.97 10.16)
+				(end 13.97 -10.795)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3404,8 +4440,8 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at -1.905 -14.605 90)
+			(pin input line
+				(at -7.62 -15.875 90)
 				(length 5.08)
 				(name "A2"
 					(effects
@@ -3422,8 +4458,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.955 1.905 0)
+			(pin input line
+				(at -19.05 3.81 0)
 				(length 5.08)
 				(name "IN+"
 					(effects
@@ -3440,8 +4476,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.955 -3.175 0)
+			(pin input line
+				(at -19.05 -4.445 0)
 				(length 5.08)
 				(name "IN-"
 					(effects
@@ -3458,8 +4494,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.175 -14.605 90)
+			(pin input line
+				(at -1.27 -15.875 90)
 				(length 5.08)
 				(name "A0"
 					(effects
@@ -3476,8 +4512,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0.635 -14.605 90)
+			(pin input line
+				(at -4.445 -15.875 90)
 				(length 5.08)
 				(name "A1"
 					(effects
@@ -3494,8 +4530,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.985 14.605 270)
+			(pin power_in line
+				(at -12.065 15.24 270)
 				(length 5.08)
 				(name "VS+"
 					(effects
@@ -3512,8 +4548,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 6.35 14.605 270)
+			(pin power_in line
+				(at 2.54 15.24 270)
 				(length 5.08)
 				(name "LVDD"
 					(effects
@@ -3530,26 +4566,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 1.905 14.605 270)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -2.54 180)
+			(pin input line
+				(at 19.05 -8.89 180)
 				(length 5.08)
 				(name "DA_IN+"
 					(effects
@@ -3566,8 +4584,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 0.635 180)
+			(pin input line
+				(at 19.05 -1.27 180)
 				(length 5.08)
 				(name "REF"
 					(effects
@@ -3584,8 +4602,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 4.445 180)
+			(pin output line
+				(at 19.05 1.27 180)
 				(length 5.08)
 				(name "OUT"
 					(effects
@@ -3602,8 +4620,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 8.255 180)
+			(pin input line
+				(at 19.05 8.255 180)
 				(length 5.08)
 				(name "DA_IN-"
 					(effects
@@ -3620,26 +4638,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -1.905 14.605 270)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -14.605 90)
+			(pin power_in line
+				(at 2.54 -15.875 90)
 				(length 5.08)
 				(name "LVSS"
 					(effects
@@ -3656,26 +4656,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.985 -14.605 90)
-				(length 5.08)
-				(name "VS-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.255 -14.605 90)
+			(pin input line
+				(at 5.08 -15.875 90)
 				(length 5.08)
 				(name "DGND"
 					(effects
@@ -3692,17 +4674,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -11.43 -14.605 90)
+			(pin power_in line
+				(at -12.065 -15.875 90)
 				(length 5.08)
-				(name "EP"
+				(name "VS-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "[15,17]"
 					(effects
 						(font
 							(size 1.27 1.27)
