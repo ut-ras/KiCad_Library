@@ -1,0 +1,232 @@
+(footprint "ABM3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ABM3")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5f9c793c-1b68-41d5-bc57-05e8032a68d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ABM3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2401ad2c-eadd-4c13-aec1-58ab071129be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33a8dd38-b289-4206-971b-948d6ab9d168")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e49aa448-37dc-4864-9e28-c9149eb96560")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -1.6)
+		(end 2.5 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4e0cd2a-9cdc-40ca-ad74-766836e38669")
+	)
+	(fp_line
+		(start -2.5 1.6)
+		(end 2.4 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "921ac893-95a3-46b5-bad4-1e3799f24251")
+	)
+	(fp_line
+		(start -2.2 2.2)
+		(end -2.2 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f3f04d4-1aa1-4b05-bb09-baf99cff3b4b")
+	)
+	(fp_line
+		(start -2.1 2.2)
+		(end -2.1 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b3757b6-0893-4c30-b7a9-c7c362f6e128")
+	)
+	(fp_arc
+		(start -2.2 2.2)
+		(mid -2.15 2.15)
+		(end -2.1 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca0e2d47-c4ec-4d29-8e96-b1248e917537")
+	)
+	(fp_arc
+		(start -2.1 2.2)
+		(mid -2.15 2.25)
+		(end -2.2 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8702e7fb-cb89-40f8-8fc9-1bdda6ac15ba")
+	)
+	(fp_line
+		(start -4 -2.6)
+		(end 4 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea65f0a3-3c6e-44af-bc77-6e24a0c59a3f")
+	)
+	(fp_line
+		(start -4 2.6)
+		(end -4 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97864cff-9340-4c18-ae08-fc011696e030")
+	)
+	(fp_line
+		(start 4 -2.6)
+		(end 4 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8bae26e0-9719-4590-98b2-6ca6c08f7d3d")
+	)
+	(fp_line
+		(start 4 2.6)
+		(end -4 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee04afb2-2db3-4cd8-b28d-d60357ceb89b")
+	)
+	(fp_line
+		(start -2.5 -1.6)
+		(end 2.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60f37f41-4473-4be5-ade1-946a0a95ad0f")
+	)
+	(fp_line
+		(start -2.5 1.6)
+		(end -2.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8eec7ded-dc5d-4359-965c-d29b17e1bf01")
+	)
+	(fp_line
+		(start 2.5 -1.6)
+		(end 2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6f3f4ef-42b7-4a48-ba6f-34369adaa8ec")
+	)
+	(fp_line
+		(start 2.5 1.6)
+		(end -2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47601ce2-af00-4778-b576-5516d99943df")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "933f29f4-cd70-4dea-834f-21edb868acba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.05 0)
+		(size 1.9 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fcf1aef2-5f1d-427f-b6df-6255bf09c082")
+	)
+	(pad "2" smd rect
+		(at 2.05 0)
+		(size 1.9 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd482fba-ae6d-4a75-8551-ddf4a27be87f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Part Libraries/models/ABM3-16.000MHZ-B4Y-T.stp"
+		(offset
+			(xyz 0 0 0.2499999962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
